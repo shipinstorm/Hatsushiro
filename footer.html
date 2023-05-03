@@ -8,23 +8,22 @@
   <title></title>
 
   <!-- Internal Stylesheet -->
-  <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
-  <link rel="stylesheet" type="text/css" href="./assets/css/footer.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/footer.css" />
 
   <link rel="stylesheet" type="text/css" href="assets/vendor/slick/css/slick.css">
   <link rel="stylesheet" type="text/css" href="assets/vendor/slick/css/slick-theme.css">
-  
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-  <script type="text/javascript" src="assets/vendor/slick/js/slick.min.js"></script>
 </head>
 
 <body>
   <div class="section-container">
     <div class="footer-section1">
       <div class="container">
-        <img src="./assets/image/headerfooter/footer_section1_1.jpg" alt="" />
-        <img src="./assets/image/headerfooter/footer_section1_2.jpg" alt="" />
-        <img src="./assets/image/headerfooter/footer_section1_3.jpg" alt="" />
+        <img src="assets/image/headerfooter/footer_section1_1.jpg" alt="" />
+        <img src="assets/image/headerfooter/footer_section1_2.jpg" alt="" />
+        <img src="assets/image/headerfooter/footer_section1_3.jpg" alt="" />
       </div>
     </div>
     <div class="footer-section2"></div>
@@ -32,7 +31,7 @@
       <div class="container footer-section3-content">
         <div class="footer-section3-top">
           <div class="footer-section3-left">
-            <img class="footer-logo" src="./assets/image/headerfooter/logo.png" alt="" />
+            <img class="footer-logo" src="assets/image/headerfooter/logo.png" alt="" />
             <p>
               海辺の料理小宿 はつしろ<br />
               〒811-4202<br />
@@ -77,37 +76,25 @@
         </div>
       </div>
     </div>
-    <div class="footer-section4 splide" role="group" aria-label="Footer Images">
-      <div class="splide__track">
-        <ul class="splide__list">
-          <li class="splide__slide">
-            <img src="assets/image/headerfooter/splide/1.jpg" alt="splide_image" />
-          </li>
-          <li class="splide__slide">
-            <img src="assets/image/headerfooter/splide/2.jpg" alt="splide_image" />
-          </li>
-          <li class="splide__slide">
-            <img src="assets/image/headerfooter/splide/3.jpg" alt="splide_image" />
-          </li>
-          <li class="splide__slide">
-            <img src="assets/image/headerfooter/splide/4.jpg" alt="splide_image" />
-          </li>
-          <li class="splide__slide">
-            <img src="assets/image/headerfooter/splide/5.jpg" alt="splide_image" />
-          </li>
-          <li class="splide__slide">
-            <img src="assets/image/headerfooter/splide/6.jpg" alt="splide_image" />
-          </li>
-        </ul>
-      </div>
+    <div class="footer-section4 variable-width">
+      <img src="../assets/image/headerfooter/splide/1.jpg" alt="" />
+      <img src="../assets/image/headerfooter/splide/2.jpg" alt="" />
+      <img src="../assets/image/headerfooter/splide/3.jpg" alt="" />
+      <img src="../assets/image/headerfooter/splide/4.jpg" alt="" />
+      <img src="../assets/image/headerfooter/splide/5.jpg" alt="" />
+      <img src="../assets/image/headerfooter/splide/6.jpg" alt="" />
     </div>
   </div>
 
-  <!-- Splide -->
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      var splide = new Splide('.splide');
-      splide.mount();
+  <script type="text/javascript" src="assets/vendor/slick/js/slick.min.js"></script>
+  <script type="text/javascript">
+    $('.footer-section4.variable-width').slick({
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      centerMode: true,
+      variableWidth: true,
     });
   </script>
 </body>

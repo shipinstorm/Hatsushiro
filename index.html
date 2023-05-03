@@ -8,8 +8,11 @@
   <title></title>
 
   <!-- Internal Stylesheet -->
-  <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
-  <link rel="stylesheet" type="text/css" href="./assets/css/top.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/index.css" />
+
+  <link rel="stylesheet" type="text/css" href="assets/vendor/slick/css/slick.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/slick/css/slick-theme.css">
 
   <!-- External Scripts -->
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"
@@ -60,12 +63,12 @@
           イカ、鯛、ぶりなど全国的に有名な漁場。旬ごとに美味しい素材
         </p>
         <div class="images">
-          <img src="assets/image/top/0L9A9922.jpg" alt="" />
-          <img src="assets/image/top/0L9A9991.jpg" alt="" />
+          <img src="../assets/image/index/0L9A9922.jpg" alt="" />
+          <img src="../assets/image/index/0L9A9991.jpg" alt="" />
         </div>
       </div>
       <div class="right-part">
-        <img src="assets/image/top/0L9A9983.jpg" alt="" />
+        <img src="../assets/image/index/0L9A9983.jpg" alt="" />
       </div>
 
     </div>
@@ -90,8 +93,8 @@
         </p>
       </div>
       <div class="images">
-        <img src="assets/image/top/0L9A0179.jpg" alt="" />
-        <img src="assets/image/top/0L9A0263.jpg" alt="" />
+        <img src="assets/image/index/0L9A0179.jpg" alt="" />
+        <img src="assets/image/index/0L9A0263.jpg" alt="" />
       </div>
     </div>
 
@@ -117,7 +120,7 @@
         </div>
         <butotn class="button-default">観光ページ　詳しく見る </butotn>
       </div>
-      <div class="right-part" >
+      <div class="right-part">
         <div class="text">
           波津海水浴場まで徒歩で約3分。<br />
           玄界灘を望む波津海岸に面した立地。<br />
@@ -127,14 +130,29 @@
         <button class="button-default">アクセスページ　詳しく見る </button>
       </div>
     </div>
-    
+
     <div class="section8">
       <div class="text-experience">Experience</div>
       <div class="description">はつしろでの滞在</div>
     </div>
 
     <!-- Slider -->
-    <div style="height: 500px;"></div>
+    <div class="experience-slider variable-width">
+      <div class="slider-item item1">
+        <img src="assets/image/index/0L9A0742.jpg" alt="">
+      </div>
+      <div class="slider-item item2">
+        <img src="assets/image/index/0L9A0090.jpg" alt="">
+      </div>
+      <div class="slider-item item3">
+        <img src="assets/image/index/0L9A0148.jpg" alt="">
+        <img src="assets/image/index/0L9A0275.jpg" alt="">
+      </div>
+      <div class="slider-item item4">
+        <img src="assets/image/index/0L9A0306.jpg" alt="">
+      </div>
+    </div>
+
 
     <div class="section9">
       <div class="left-part">
@@ -157,10 +175,23 @@
     </div>
 
     <!-- Slider -->
-    
+
   </div>
 
   <div id="footer"></div>
+
+  <script type="text/javascript" src="assets/vendor/slick/js/slick.min.js"></script>
+  <script type="text/javascript">
+    $('.experience-slider.variable-width').slick({
+      dots: false,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      centerMode: false,
+      autoplay: true,
+      variableWidth: true,
+    });
+  </script>
 </body>
 
 </html>
