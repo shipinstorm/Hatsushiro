@@ -57,11 +57,32 @@
   color: white;
 }
 
-.footer-secion4 {
+.footer-section4 {
   margin-top: 64px;
 }
 
-.footer-secion4 li {
-  margin-left: 3px;
-  margin-right: 3px;
+.footer-section4 img {
+  width: 300px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.slick-dots {
+  bottom: -50px !important;
+}
+
+.slick-dots li button {
+  width: 8px !important;
+  height: 8px !important;
+  border: 1px solid #60B49F !important;
+  border-radius: 50% !important;
+  padding: 0 !important;
+}
+
+.slick-dots li button::before {
+  content: '' !important;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #60B49F !important;
 }

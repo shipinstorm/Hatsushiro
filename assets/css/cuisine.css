@@ -1,27 +1,27 @@
 .page-top {
-  background-image: url("../image/food/page_top.jpg");
+  background-image: url("../image/cuisine/page_top.jpg");
   text-shadow: 0 0 10px black;
 }
 
 .navigation-image1 {
-  background-image: url("../image/food/breakfast1.jpg");
+  background-image: url("../image/cuisine/breakfast1.jpg");
 }
 
 .navigation-image2 {
-  background-image: url("../image/food/breakfast2.jpg");
+  background-image: url("../image/cuisine/breakfast2.jpg");
 }
 
 .navigation-image3 {
-  background-image: url("../image/food/breakfast3.jpg");
+  background-image: url("../image/cuisine/breakfast3.jpg");
 }
 
 .navigation-image4 {
-  background-image: url("../image/food/restaurant.jpg");
+  background-image: url("../image/cuisine/restaurant.jpg");
 }
 
 /* .concept {
   height: 690px;
-  background-image: url("../image/food/concept.jpg");
+  background-image: url("../image/cuisine/concept.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -48,7 +48,7 @@
 
 .restaurant-image {
   height: 500px;
-  background-image: url("../image/food/restaurant.jpg");
+  background-image: url("../image/cuisine/restaurant.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
