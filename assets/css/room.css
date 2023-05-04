@@ -87,6 +87,7 @@
 .pool .left-box {
   padding-top: 96px;
   width: 28%;
+  min-width: 28%;
 }
 
 .pool .left-box .title {
@@ -113,3 +114,77 @@
   left: 0;
   top: 0;
 }
+
+.small-slider {
+  position: relative;
+  top: -48px;
+}
+
+.small-slider img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+  margin-left: 10px;
+}
+
+.point {
+  width: 50px;
+  height: auto;
+  margin: -20px;
+}
+
+.point-title {
+  margin-top: 16px;
+  font-size: 24px;
+  /* line-height: 58px; */
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 96px;
+}
+
+.big-slider {
+  margin-top: 32px;
+}
+
+.big-slider img {
+  /* width: 700px !important; */
+  height: 450px; 
+  object-fit: cover;
+  margin-left: 20px;
+  opacity: .7;
+}
+
+.big-slider .slick-current {
+  opacity: 1;
+}
+
+.big-slider .slick-dots {
+  bottom: 32px !important;
+}
+
+.big-slider .slick-dots li button {
+  width: 8px !important;
+  height: 8px !important;
+  border: 1px solid white !important;
+  border-radius: 50% !important;
+  padding: 0 !important;
+}
+
+.big-slider .slick-dots li button::before {
+  content: '' !important;
+}
+
+.big-slider .slick-dots li.slick-active button {
+  background-color: white !important;
+}
+
+.slider.single-item img {
+  width: 500px !important;
+  height: auto;
+}
+
