@@ -419,3 +419,11 @@ img.point {
   object-fit: cover;
   width: 66%;
 }
+
+.image-thumbnails-list img {
+  opacity: .5;
+}
+
+.image-thumbnails-list img.active {
+  opacity: 1;
+}

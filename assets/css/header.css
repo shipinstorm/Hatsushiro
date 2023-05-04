@@ -5,28 +5,34 @@
   align-items: center;
   height: 37px;
 }
+
 .header-logo {
   width: 100px;
   margin-right: 40px;
 }
+
 .header-list {
   display: flex;
   margin-right: 40px;
 }
+
 .header-menu {
   padding: 0px 10px;
   border: 1px solid white;
   font-size: 16px;
   line-height: 29px;
 }
+
 .header-section1 a {
   text-decoration: none;
   color: black;
 }
+
 .header-separator {
   color: white;
   margin: 0px 10px;
 }
+
 .header-section2 {
   background-color: #60b49f;
   display: flex;
@@ -34,6 +40,7 @@
   align-items: center;
   height: 37px;
 }
+
 .accommodation-plans {
   background-color: #b7282e;
   color: white;
@@ -42,8 +49,193 @@
   line-height: 26px;
   margin-right: 20px;
 }
+
 .reservations-and-inquiries {
   font-size: 12px;
   line-height: 21px;
-  background-color: #992255;
+  /* background-color: #992255; */
+}
+
+.header-menu {
+  cursor: pointer;
+}
+
+.hamburger {
+  width: 20px;
+  line-height: 0;
+  display: inline-block;
+}
+
+.hamburger span {
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  background-color: #555;
+  margin: 1px 0;
+}
+
+.header-menu-content {
+  background: linear-gradient(to bottom, #ddd 0, #ddddddee 30%, #ddddddbb 70%, #dddddd50 100%);
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  padding-top: 20px;
+  transition: all 2s ease;
+  height: 100vh;
+}
+
+.header-menu-content .close-button-container {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 200px;
+}
+
+.header-menu-content .close-button-container .close-button {
+  border: 1px solid#ccc;
+  padding: 0 3px;
+  font-size: 16px;
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.header-menu-content .close-button-container .close-icon {
+  position: relative;
+}
+
+.header-menu-content .close-button-container .close-button span {
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  background-color: #333;
+}
+
+.header-menu-content .close-button-container .close-button span:nth-child(1) {
+  transform: translateX(4px) translateY(-3px) rotate(45deg);
+}
+
+.header-menu-content .close-button-container .close-button span:nth-child(2) {
+  transform: translateX(-20px) translateY(-3px) rotate(-45deg);
+}
+
+.header-menu-content .reservation {
+  margin-top: 30px;
+  border: 2px solid #60B49F;
+  padding: 10px;
+}
+
+.header-menu-content .reservation .title {
+  color: #60B49F;
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+}
+
+.header-menu-content .reservation .title .text-reservation {
+  font-size: 22px;
+  line-height: 38px;
+}
+
+.header-menu-content .reservation .title .text1 {
+  font-size: 16px;
+  line-height: 36px;
+}
+
+.header-menu-content .reservation .box {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.header-menu-content .reservation .box .yellow-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: chocolate;
+  color: white;
+  text-shadow: 0 0 5px black;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.header-menu-content .reservation .box .yellow-box .best-mark {
+  width: 30px;
+  height: auto;
+  object-fit: cover;
+}
+
+.header-menu-content .reservation .box .yellow-box .text1 {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.header-menu-content .reservation .box .yellow-box .text2 {
+  font-size: 11px;
+  line-height: 12px;
+}
+
+
+.header-menu-content .reservation .box .red-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  color: white;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.header-menu-content .reservation .box .text {
+  margin-left: 10px;
+}
+
+.header-menu-content .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-menu-content .content .link-box {
+  width: 600px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 20px;
+}
+
+.header-menu-content .content .link-box .link {
+  border-bottom: 1px solid white;
+  padding: 10px 20px;
+}
+
+.header-menu-content .contact-content {
+  margin-top: 20px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.header-menu-content .contact-content .logo-container img {
+  width: 200px;
+  height: auto;
+}
+
+.header-menu-content .contact-content p {
+  min-width: 500px;
+  font-size: 18px;
+  line-height: 38px;
+}
+
+.header-menu-content .contact-content .instagram-icon {
+  width: 15px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.hide {
+  display: none;
 }
