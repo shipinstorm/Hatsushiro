@@ -262,3 +262,9 @@ img.background {
   border-top-color: white !important;
   border-bottom-color: white !important;
 }
+
+.road-map {
+  width: 100%;
+  width: auto;
+  object-fit: cover;
+}
