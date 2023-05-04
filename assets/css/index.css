@@ -362,9 +362,9 @@
   margin-top: 32px;
 }
 
-.experience-slider .slick-list {
-  overflow: visible !important;
-}
+/* .experience-slider .slick-list {
+  
+} */
 
 .experience-slider .slider-item {
   height: 480px;
@@ -394,6 +394,8 @@
 
 .experience-slider .item2,
 .experience-slider .item4 {
-  position: relative;
-  top: 60px;
+  /* position: relative;
+  top: 60px; */
+  margin-top: 60px;
 }
+

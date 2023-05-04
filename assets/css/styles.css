@@ -214,3 +214,7 @@ a {
   writing-mode: vertical-rl;
   text-orientation: upright;
 }
+
+.slick-arrow {
+  display: none !important;
+}
