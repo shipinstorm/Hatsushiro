@@ -30,11 +30,19 @@
   <div id="header"></div>
 
   <div class="page-top">
-    <div id="top-center-image"></div>
+    <div class="title">2023年4月　リニューアルオープン</div>
+    <div class="title-xs date">2023年4月</div>
+    <div class="title-xs">リニューアルオープン</div>
+    <div class="subtitle">
+      玄界灘が目の前に広がる<br>
+      海辺の料理旅館
+    </div>
+    <img src="assets/image/index/logo.png" alt="" class="logo">
   </div>
 
   <div class="page-introduce">
-    <div id="top-renewal-image"></div>
+    <div class="title">Renewal</div>
+    <div class="subtitle">2023年4月　リニューアルオープン</div>
     <p class="semi-bold">
       玄海灘直送の鮮魚！地元の食がうまい<br />
       海辺の料理小宿はつしろ
@@ -48,10 +56,28 @@
 
   <div class="page-body">
     <div class="section1">
+      <!-- <div class="variable-width">
+        <img src="assets/image/headerfooter/splide/1.jpg" alt="" />
+        <img src="assets/image/headerfooter/splide/2.jpg" alt="" />
+        <img src="assets/image/headerfooter/splide/3.jpg" alt="" />
+        <img src="assets/image/headerfooter/splide/4.jpg" alt="" />
+        <img src="assets/image/headerfooter/splide/5.jpg" alt="" />
+        <img src="assets/image/headerfooter/splide/6.jpg" alt="" />
+        <img src="assets/image/headerfooter/splide/6.jpg" alt="" />
+        <img src="assets/image/headerfooter/splide/6.jpg" alt="" />
+      </div> -->
       <button class="button-default">
         はつしろのこだわりページ　詳しく見る
       </button>
-      <div id="omotenashi-image"></div>
+      <div class="omotenashi-en">Omotenashi</div>
+      <div class="omotenashi-jp">3つのおもてなし</div>
+      <div class="cuisine-title vertical-text">料理</div>
+      <img src="assets/image/index/white-point.png" alt="" class="white-point">
+      <div class="description vertical-text">
+        海、山の食材が豊富に揃う<br>
+        「波津」ならではの<br>
+        美味しい旬の味をお届け
+      </div>
     </div>
 
     <div class="food-image"></div>
@@ -74,7 +100,13 @@
     </div>
     <div class="section3">
       <button class="button-default">料理ページ　詳しく見る</button>
-      <div id="section3-text-image"></div>
+      <div class="title vertical-text">客室</div>
+      <img src="assets/image/index/green-point.png" alt="" class="green-point">
+      <div class="subtitle vertical-text">
+        ゆっくりと会話を<br>
+        楽しみながら、<br>
+        海とお料理を
+      </div>
       <div id="bed-image"></div>
     </div>
 
@@ -100,7 +132,13 @@
 
     <div class="section5">
       <button class="button-default">料理ページ　詳しく見る</button>
-      <div class="text-image"></div>
+      <div class="title vertical-text">客室</div>
+      <img src="assets/image/index/green-point.png" alt="" class="green-point">
+      <div class="subtitle vertical-text">
+        ゆっくりと会話を<br>
+        楽しみながら、<br>
+        海とお料理を
+      </div>
     </div>
 
     <div class="section6">
@@ -118,7 +156,7 @@
             <span>お車で約15分</span>
           </div>
         </div>
-        <butotn class="button-default">観光ページ　詳しく見る </butotn>
+        <button class="button-default">観光ページ　詳しく見る </butotn>
       </div>
       <div class="right-part">
         <div class="text">
@@ -189,6 +227,15 @@
       slidesToShow: 1,
       centerMode: false,
       autoplay: true,
+      variableWidth: true,
+    });
+    $('.page-body .section1 .variable-width').slick({
+      dots: false,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      centerMode: false,
+      // autoplay: true,
       variableWidth: true,
     });
   </script>

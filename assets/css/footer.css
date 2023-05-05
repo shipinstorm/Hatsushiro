@@ -96,3 +96,150 @@
 .slick-dots li.slick-active button {
   background-color: #60B49F !important;
 }
+
+.footer-xs {
+  display: none;
+}
+
+
+@media (max-width: 575px) {
+  .section-container {
+    display: none;
+  }
+
+  .footer-xs {
+    margin-top: 96px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 192px;
+  }
+
+  .footer-xs .plan-box .reservation {
+    margin-top: 30px;
+    border: 2px solid #60B49F;
+    padding: 10px;
+  }
+
+  .footer-xs .plan-box .reservation .box {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+  .footer-xs .plan-box .reservation .box .yellow-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: chocolate;
+    color: white;
+    padding: 10px 5px;
+  }
+
+  .footer-xs .plan-box .reservation .box .yellow-box .best-mark {
+    width: 30px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .footer-xs .plan-box .reservation .box .yellow-box .text1 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .footer-xs .plan-box .reservation .box .yellow-box .text2 {
+    font-size: 11px;
+    line-height: 12px;
+  }
+
+
+  .footer-xs .plan-box .reservation .box .red-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 12px;
+  }
+
+  .footer-xs .contact .reservation {
+    margin-top: 30px;
+    border: 2px solid #60B49F;
+    padding: 10px;
+  }
+
+  .footer-xs .contact .reservation .title {
+    color: #60B49F;
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+
+  }
+
+  .footer-xs .contact .reservation .title .text-reservation {
+    font-size: 18px;
+    line-height: 38px;
+  }
+
+  .footer-xs .contact .reservation .title .text1 {
+    font-size: 12px;
+    line-height: 36px;
+  }
+
+  .footer-xs .contact .reservation .box {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+  .footer-xs .contact .reservation .box .yellow-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: chocolate;
+    color: white;
+    padding: 10px 5px;
+  }
+
+  .footer-xs .contact .reservation .box .yellow-box .best-mark {
+    width: 30px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .footer-xs .contact .reservation .box .yellow-box .text1 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .footer-xs .contact .reservation .box .yellow-box .text2 {
+    font-size: 11px;
+    line-height: 12px;
+  }
+
+
+  .footer-xs .contact .reservation .box .red-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 12px;
+  }
+
+  .footer-xs .contact .reservation .box .text {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #2E2F31;
+    text-align: center;
+  }
+}

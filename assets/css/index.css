@@ -7,13 +7,36 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
-.page-top #top-center-image {
-  width: 30%;
-  height: 50%;
-  background-image: url('../image/index/top-text.png');
-  background-size: cover;
+.page-top>.title {
+  font-size: 36px;
+}
+
+.page-top>.title-xs {
+  text-align: center;
+  display: none;
+  /* font-size: 54px; */
+  font-size: 30px;
+}
+
+.page-top>.subtitle {
+  font-size: 28px;
+  margin-top: 30px;
+}
+
+.page-top>.title,
+.page-top>.subtitle,
+.page-top>.title-xs {
+  color: white;
+  text-shadow: 0 0 10px black;
+}
+
+.page-top img.logo {
+  margin-top: 50px;
+  width: 300px;
+  height: auto;
 }
 
 .page-introduce {
@@ -27,15 +50,24 @@
   background-size: cover;
 }
 
-.page-introduce #top-renewal-image {
-  width: 300px;
-  height: 60px;
-  background-image: url('../image/index/top-renewal.png');
-  background-size: cover;
-  margin-bottom: 96px;
+.page-introduce .title {
+  font-size: 48px;
+  opacity: .5;
+}
+
+.page-introduce .subtitle {
+  margin-top: 16px;
+  font-size: 24px;
+}
+
+.page-introduce .title,
+.page-introduce .subtitle {
+  color: white;
+  text-shadow: 0 0 5px black;
 }
 
 .page-introduce .semi-bold {
+  margin-top: 96px;
   font-size: 24px;
   line-height: 58px;
 }
@@ -55,21 +87,49 @@
   padding-top: 220px;
 }
 
-.page-body .section1 #omotenashi-image {
-  background-image: url('../image/index/omotenashi.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 250px;
-  height: 400px;
-  z-index: 10;
-} 
+.page-body .omotenashi-en {
+  font-size: 48px;
+  margin-top: 96px;
+}
+
+.page-body .omotenashi-jp {
+  margin-top: 16px;
+  font-size: 24px;
+}
+
+.page-body .omotenashi-en,
+.page-body .omotenashi-jp,
+.page-body .cuisine-title,
+.page-body .description {
+  color: white;
+  z-index: 15;
+  text-shadow: 0 0 5px black;
+}
+
+.page-body .section1 .cuisine-title {
+  font-size: 18px;
+  margin-top: 96px;
+}
+
+.page-body .section1 .white-point {
+  width: 30px;
+  height: auto;
+  margin-top: 16px;
+}
+
+.page-body .section1 .description {
+  font-size: 28px;
+  line-height: 58px;
+  margin-top: 16px;
+}
+
 
 .page-body .food-image {
   width: 1080px;
   height: 500px;
   margin: auto;
   background-image: url('../image/index/0L9A9930.jpg');
-  background-size: cover  ;
+  background-size: cover;
   position: relative;
   top: -200px;
 }
@@ -78,7 +138,7 @@
   display: flex;
   margin-top: -160px;
   gap: 5px;
-  margin-bottom: 48px;  
+  margin-bottom: 48px;
 }
 
 .page-body .section2 .left-part {
@@ -126,18 +186,30 @@
   margin-top: 48px;
 }
 
-.page-body .section3 #section3-text-image {
-  width: 150px;
-  height: 310px;
-  background-image: url('../image/index/text-section3.png');
-  background-size: cover;
+.page-body .section3 .title {
+  font-size: 18px;
   margin-top: 96px;
-  margin-bottom: 48px;
+}
+
+.page-body .section3 .green-point {
+  width: 25px;
+  margin-top: 16px;
+}
+
+.page-body .section3 .subtitle {
+  font-size: 28px;
+  line-height: 58px;
+  margin-top: 16px;
+}
+
+.page-body .section3 .title,
+.page-body .section3 .subtitle {
+  color: #2E2F31;
 }
 
 .page-body .section3 #bed-image {
   width: 1000px;
-  height: 400px; 
+  height: 400px;
   background-image: url('../image/index/0L9A0211.jpg');
   background-size: cover;
   margin-bottom: 64px;
@@ -149,7 +221,7 @@
   margin-bottom: 48px;
 }
 
-.page-body .section4 > .text {
+.page-body .section4>.text {
   width: 50%;
   min-width: 50%;
   padding-left: 200px;
@@ -185,11 +257,20 @@
   margin-bottom: 96px;
 }
 
-.page-body .section5 .text-image {
-  width: 80px;
-  height: 300px;;
-  background-image: url('../image/index/text-section5.png');
-  background-size: cover;
+.page-body .section5 .green-point {
+  width: 25px;
+  margin-top: 16px;
+}
+
+.page-body .section5 .subtitle {
+  font-size: 28px;
+  line-height: 58px;
+  margin-top: 16px;
+}
+
+.page-body .section5 .title,
+.page-body .section5 .subtitle {
+  color: #2E2F31;
 }
 
 .page-body .section6 .background-image {
@@ -216,7 +297,7 @@
 .page-body .section7 .map {
   position: absolute;
   top: 0;
-  right: 0; 
+  right: 0;
   width: 50%;
   height: 600px;
   background-image: url('../image/index/map.png');
@@ -255,7 +336,7 @@
 }
 
 .page-body .section7 .right-part .text {
-  width:  80%;
+  width: 80%;
   margin-bottom: 300px;
 }
 
@@ -368,7 +449,7 @@
 
 .experience-slider .slider-item {
   height: 480px;
-  width:  380px;
+  width: 380px;
   margin-left: 10px;
 }
 
@@ -399,3 +480,266 @@
   margin-top: 60px;
 }
 
+.header-menu {
+  cursor: pointer;
+}
+
+.hamburger {
+  width: 20px;
+  line-height: 0;
+  display: inline-block;
+}
+
+.hamburger span {
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  background-color: #555;
+  margin: 1px 0;
+}
+
+.page-body .section1 .variable-width img {
+  width: 300px;
+  height: auto;
+}
+
+/******************************
+  Responsive features
+*******************************/
+
+/* mobile design */
+@media (max-width: 575px) {
+  .page-top {
+    height: 100vh !important;
+    justify-content: flex-start !important;
+  }
+
+  .page-top .title {
+    display: none;
+  }
+
+  .page-top .title-xs {
+    display: block;
+  }
+
+  .page-top .title-xs.date {
+    margin-top: 50px;
+  }
+
+  .page-top .subtitle {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .page-top img.logo {
+    margin-top: 10px;
+    width: 200px;
+  }
+
+  .page-introduce {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .page-introduce .title {
+    font-size: 30px;
+  }
+
+  .page-introduce .subtitle {
+    font-size: 16px;
+  }
+
+  .page-introduce .semi-bold {
+    font-size: 16px;
+    line-height: 25px;
+    text-shadow: 0 0 15px white;
+  }
+
+  .page-introduce .description {
+    font-size: 15px;
+    line-height: 25px;
+    text-shadow: 0 0 15px white;
+  }
+
+  .page-body .section1 .button-default {
+    width: 80%;
+    font-size: 12px;
+    height: 55px;
+  }
+
+  .page-body .section1 .omotenashi-en {
+    font-size: 35px;
+  }
+
+  .page-body .section1 .omotenash-ja {
+    font-size: 25px;
+  }
+
+  .page-body .section1 .description {
+    font-size: 23px;
+  }
+
+  .page-body .food-image {
+    height: 100vw;
+    width: 100%;
+  }
+
+  .page-body .section2 {
+    flex-direction: column;
+  }
+
+  .page-body .section2 .left-part {
+    padding: 0 10px;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .page-body .section2 .left-part p {
+    margin-left: 0;
+  }
+
+  .page-body .section2 .images img:first-child {
+    margin-top: 40px;
+  }
+
+  .page-body .section2 .images img:last-child {
+    margin-bottom: 40px;
+  }
+
+  .page-body .section2 .right-part {
+    padding: 0 10px;
+  }
+
+  .page-body .section3 .button-default {
+    width: 80%;
+    font-size: 12px;
+    height: 55px;
+  }
+
+  .page-body .section3 .subtitle {
+    font-size: 23px;
+    line-height: 38px;
+  }
+
+  .page-body .section3 #bed-image {
+    margin-top: 48px;
+  }
+
+  .page-body .section3 #bed-image {
+    width: 100%;
+    height: 250px;
+  }
+
+  .page-body .section4 {
+    flex-direction: column;
+  }
+
+  .page-body .section4>.text {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .page-body .section5 .subtitle {
+    font-size: 23px;
+    line-height: 35px;
+  }
+
+  .page-body .section5 .button-default {
+    width: 80%;
+    font-size: 12px;
+    height: 55px;
+  }
+
+  .page-body .section6 .background-image {
+    height: 300px;
+  }
+
+  .page-body .section7 {
+    padding: 0;
+    flex-direction: column-reverse;
+    padding-bottom: 50px;
+  }
+
+  .page-body .section7 .right-part {
+    width: 100%;
+    padding: 48px 10px;
+  }
+
+  .page-body .section7 .right-part .text {
+    width: 100%;
+    margin-bottom: 320px;
+  }
+
+  .page-body .section7 .left-part {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 10px;
+    height: 300px;
+  }
+
+  .page-body .section7 .left-part .image .button-box {
+    font-size: 10px;
+    height: 44px;
+    padding: 0 10px;
+    left: 10px;
+  }
+
+  .page-body .section7 .button-default {
+    width: 80%;
+    font-size: 12px;
+    height: 55px;
+    min-height: 55px;
+    margin: auto;
+  }
+
+  .page-body .section7 .map {
+    width: 370px;
+    height: 680px;
+    top: 150px;
+  }
+
+  .page-body .section8 .text-experience {
+    line-height: 84px;
+  }
+
+  .page-body .section8 .description {
+    font-size: 19px;
+  }
+
+  .experience-slider {
+    margin-top: 48px;
+  }
+
+  .page-body .section9 {
+    flex-direction: column;
+  }
+
+  .page-body .section9 .left-part,
+  .page-body .section9 .right-part {
+    width: 100%;
+    align-items: center;
+  }
+
+  .page-body .section9 .left-part .image,
+  .page-body .section9 .right-part .image {
+    justify-content: center;
+  }
+
+  .page-body .section9 .left-part .subtitle,
+  .page-body .section9 .right-part .subtitle {
+    position: relative;
+    top: -18px;
+  }
+
+  .page-body .section9 .right-part .description,
+  .page-body .section9 .left-part .description {
+    margin-top: 0;
+    padding: 0 10px;
+  }
+}
+
+/* tablet design */
+@media (max-width: 768px) {}
+
+/* laptop, desktop design */
+@media (max-width: 1023px) {}
