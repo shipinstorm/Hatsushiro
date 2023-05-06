@@ -288,3 +288,128 @@
 .for-group .drive-type-content-spot {
   color: #DE6A1C;
 }
+
+@media (max-width: 575px) {
+  .page-introduce {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .introduce-navigation1 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .section-sub-container1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .trouble-with-cooking {
+    flex-direction: column;
+  }
+
+  .trouble-with-cooking-content {
+    margin-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .choose-a-place-content {
+    flex-direction: column;
+  }
+
+  .choose-a-place-item {
+    margin-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .relatives-to-gather {
+    flex-direction: column;
+  }
+
+  .relatives-to-gather-content {
+    margin-left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .relatives-to-gather+p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .contact-content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .contact-content .button-default {
+    width: 100%;
+  }
+
+  .line-title {
+    gap: 10px;
+  }
+
+  .line-title .line {
+    width: 30px;
+  }
+
+  .step-content {
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 5px;
+  }
+
+  .step-content .step-item {
+    margin-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+  }
+
+  .step-content+p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .anniversary-memorial-services {
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+
+  .day-drive {
+    flex-direction: column;
+  }
+
+  .day-drive img {
+    width: 100% !important;
+  }
+
+  .drive-type-content {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .image-box {
+    flex-direction: column;
+  }
+
+  .bottom-section .button-default {
+    width: 100%;
+  }
+
+  .relatives-to-gather img,
+  .trouble-with-cooking img {
+    width: 100% !important;
+    height: auto;
+    object-fit: cover;
+  }
+}

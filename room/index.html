@@ -106,9 +106,9 @@
         <div class="left-box">
           <div class="title">客室内のお風呂</div>
           <div class="text">
-            お部屋のお風呂からもオーシャンビューが<br />
-            広がります。<br />
-            肩湯付きの浴槽で、リラックスした<br />
+            お部屋のお風呂からもオーシャンビューが
+            広がります。
+            肩湯付きの浴槽で、リラックスした
             バスタイムをお過ごしください。
           </div>
         </div>
@@ -257,7 +257,7 @@
         infinite: true,
         speed: 500,
         slidesToShow: 1,
-        centerMode: false,
+        centerMode: true,
         autoplay: true,
         variableWidth: true,
       });
@@ -271,8 +271,14 @@
         centerMode: true,
       });
 
-      $('.slider.single-item').slick({
-        dots: true,
+      $('.pool .slider.single-item').slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        centerMode: true,
+        autoplay: true,
+        variableWidth: true,
       });
     </script>
 </body>

@@ -177,6 +177,10 @@ img.background {
   color: red;
 }
 
+.contact-panel .contact-info>span:first-child {
+  margin-right: 10px;
+}
+
 .contact-panel .contact-info .contact-info-telephone {
   font-size: 28px;
 }
@@ -268,3 +272,85 @@ img.background {
   width: auto;
   object-fit: cover;
 }
+
+@media (max-width: 575px) {
+  .page-introduce-section {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .introduce-title {
+    text-align: center;
+  }
+
+  .introduce-navigation2 {
+    flex-direction: column;
+  }
+  .section1 .button-box {
+    flex-direction: column;
+  }
+
+  .line-title {
+    gap: 10px;
+  }
+
+  .line-title .line {
+    width: 20px;
+    height: 2px;
+  }
+
+  .road-map {
+    width: 100%;
+    height: auto;
+  }
+
+  .text-list {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .text-list-item .title-box {
+    flex-direction: column;
+  }
+
+  .contact-panel .contact-info {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 15px 5px;
+  }
+
+  .contact-panel .contact-info>span:first-child {
+    margin-right: 10px;
+  }
+
+  .section2 .address {
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .section2 .button-default {
+    margin-top: 20px;
+    width: 80%;
+  }
+
+  .table-outter {
+    padding-bottom: 50px;
+  }
+  
+  .table-outter .information-two-column-table {
+    font-size: 10px;
+  }
+
+  .table-outter .information-two-column-table tr td:first-child {
+    min-width: 100px;
+    padding: 5px;
+  }
+
+  .table-outter .information-two-column-table tr td {
+    line-height: 20px;
+    word-break: break-all;
+  }
+}
+
