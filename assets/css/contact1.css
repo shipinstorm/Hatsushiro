@@ -7,9 +7,83 @@
   margin-top: 32px;
   padding: 48px;
 }
+
 .inquiry-form-content input,
 .inquiry-form-content textarea {
   width: 100%;
   min-height: 40px;
   border: 1px solid #969798;
+}
+
+@media (max-width: 575px) {
+  .page-introduce {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .inquiry-form {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .inquiry-form-content {
+    padding: 0 !important;
+  }
+
+  .inquiry-form-content>p {
+    font-size: 17px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .inquiry-form table {
+    table-layout: fixed;
+  }
+  
+  .inquiry-form .information-two-column-table tr>td:first-child {
+    width: 50% !important;
+    font-size: 11px;
+  }
+
+  .inquiry-form .information-two-column-table tr>td:last-child p {
+    /* width: 50% !important; */
+    font-size: 11px !important;
+  }
+
+  .inquiry-form .button-default {
+    width: 80%;
+  }
+
+  .tel .section-title {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .tel .contact-number {
+    font-size: 28px;
+  }
+
+  .tel .contact-list {
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .tel .contact-item {
+    margin-right: 0;
+  }
+
+  .tel .contact-content {
+    flex-direction: column;
+  }
+
+  .tel .contact-content img {
+    margin-right: 0;
+  }
+
+  .tel .contact-content  {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }

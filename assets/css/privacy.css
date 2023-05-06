@@ -1,9 +1,22 @@
 .page-top {
   background-image: url("../image/privacy/page_top.jpg");
 }
+
 .policy-title {
   border-bottom: 1px solid #60b49f;
   padding-bottom: 24px;
   margin-bottom: 32px;
   font-size: 24px;
+}
+
+@media (max-width: 575px) {
+  .page-introduce {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .page-body>.section-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }

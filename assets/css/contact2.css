@@ -41,3 +41,47 @@
   width: 200px;
   margin-right: 64px;
 }
+
+@media (max-width: 575px) {
+  .page-introduce {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .introduce-content {
+    font-size: 15px;
+  }
+
+  .page-body .section-title {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .contact-info,
+  .contact-info span {
+    font-size: 25px;
+  }
+
+  .contact-list {
+    flex-direction: column;
+  }
+
+  .contact-list .contact-item {
+    margin-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .contact-content {
+    flex-direction: column;
+  }
+
+  .contact-conent img {
+    margin-right: 0;
+  }
+
+  .contact-content p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

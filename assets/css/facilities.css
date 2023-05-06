@@ -201,3 +201,89 @@
 .page-top {
   text-shadow: 0 0 5px black;
 }
+
+@media (max-width: 557px) {
+  .page-introduce {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .introduce-navigation1 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .introduce-navigation2 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .scenery-appearance-entrance>.container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .appearance-entrance-content {
+    flex-direction: column;
+  }
+
+  .appearance-entrance-content .appearance-entrance-item {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .appearance-entrance {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .guest-room {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .guest-room-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .guest-room-item {
+    margin-right: 0;
+  }
+
+  .guest-room .button-default {
+    width: 100%;
+  }
+
+  .basic-facility-information-content {
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .basic-facility-information-item {
+    margin-right: 0;
+  }
+
+  .contact-panel {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .contact-panel .button-default {
+    width: 100%;
+  }
+
+  .restaurant-banquet-hall {
+    flex-direction: column;
+  }
+
+  .restaurant-banquet-hall img {
+    width: 100% !important;
+  }
+
+  .restaurant-banquet-hall-description {
+    width: 100% !important;
+    min-width: auto !important;
+  }
+}

@@ -427,3 +427,143 @@ img.point {
 .image-thumbnails-list img.active {
   opacity: 1;
 }
+
+@media (max-width: 575px) {
+  .page-introduce {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .page-introduce .introduce-navigation1 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .page-body .concept {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+  }
+
+  .dinner .top .button-box {
+    flex-direction: column;
+  }
+
+  .dinner .top .button-box div {
+    text-align: center;
+  }
+
+  .line-title .line {
+    width: 20px;
+  }
+
+  .image-thumbnails {
+    flex-direction: column;
+  }
+
+  .image-thumbnails-list {
+    flex-direction: row;
+  }
+
+  .image-thumbnails-list img {
+    width: 15%;
+    height: auto;
+    margin-right: 5px;
+  }
+
+  .section-sub-title {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .section-sub-title+p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .plan-content {
+    flex-direction: column;
+  }
+
+  .plan-description {
+    padding: 10px;
+  }
+
+  .section-sub-container2 {
+    margin-top: 95px !important;
+  }
+
+  .dinner {
+    padding-bottom: 0;
+  }
+
+  .tenth-description {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .reservation .title {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .reservation .box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reservation .yellow-box {
+    height: 60px;
+  }
+
+  .brown-box {
+    flex-direction: column;
+  }
+
+  .brown-box.right {
+    flex-direction: column-reverse;
+  }
+
+  .brown-box .left-part,
+  .brown-box .right-part {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .brown-box .left-part .rect,
+  .brown-box .right-part .rect {
+    font-size: 14px;
+  } 
+
+  .brown-box .left-part .text,
+  .brown-box .right-part .text {
+    font-size: 20px;
+  }
+
+  .brown-box img {
+    width: 90%;
+    margin: auto;
+  }
+
+  .breakfast-content {
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .restaurant-content {
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .restaurant-content .restaurant-item {
+    margin-right: 0;
+  }
+
+  .restaurant-container .button-default {
+    width: 80%;
+    margin: auto;
+  }
+}
