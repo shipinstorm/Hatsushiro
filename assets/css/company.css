@@ -45,6 +45,40 @@
   padding: 0px !important;
 }
 
+@media (max-width: 1199px) {
+  .page-introduce .introduce-navigation2 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #company-profile {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+  }
+
+  #company-profile .society-description {
+    padding: 20px 30px;
+    font-size: 14px;
+    line-height: 2;
+  }
+
+  #compnay-profile .recruitment .information-two-column-table td {
+    font-size: 15px;
+    line-height: 2;
+  }
+
+  #job-offer {
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .page-body {
+    max-width: 900px !important;
+    margin: auto;
+  }
+}
 
 @media (max-width: 575px) {
   .page-introduce .introduce-navigation2 {

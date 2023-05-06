@@ -385,6 +385,567 @@
   height: auto;
 }
 
+@media (max-width: 1199px) {
+  .page-top {
+    background-image: url("../image/concept/page_top.jpg");
+  }
+  
+  .page-top .title {
+    text-shadow: 0 0 5px black;
+  }
+  
+  .navigation-image1 {
+    background-image: url("../image/concept/fresh_fish.jpg");
+  }
+  
+  .navigation-image2 {
+    background-image: url("../image/concept/blowfish.jpg");
+  }
+  
+  .navigation-image3 {
+    background-image: url('../image/concept/materials_carousel_2.jpg');
+  }
+  
+  .fresh-fish,
+  .production-for-consumption1,
+  .production-for-consumption2,
+  .production-for-consumption3,
+  .fugu-craftsman {
+    display: flex;
+  }
+  
+  .fresh-fish,
+  .production-for-consumption1 {
+    margin-bottom: 64px;
+  }
+  
+  .production-for-consumption2 {
+    margin-bottom: 48px;
+  }
+  
+  .fresh-fish-description,
+  .production-for-consumption2-description {
+    margin-right: 24px;
+  }
+  
+  .production-for-consumption1-description,
+  .production-for-consumption3-description,
+  .fugu-craftsman-description {
+    margin-left: 24px;
+  }
+  
+  .fresh-fish img,
+  .production-for-consumption1 img,
+  .fugu-craftsman img {
+    max-width: 700px !important;
+    max-height: 490px !important;
+  }
+  
+  .production-for-consumption2 img,
+  .production-for-consumption3 img {
+    width: 540px !important;
+    height: 378px !important;
+  }
+  
+  .map {
+    width: 100%;
+    height: 295px;
+    background-image: url('../image/concept/map.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .avatar {
+    position: relative;
+  }
+  
+  .avatar .avatar-content {
+    position: absolute;
+    top: -175px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+  }
+  
+  .avatar img {
+    width: 200px;
+    height: auto;
+  }
+  
+  .avatar .avatar-name {
+    font-size: 16px;
+    line-height: 38px;
+  }
+  
+  .section-sub-title {
+    text-align: center;
+    margin: auto !important;
+    margin-top: 93px !important;
+  }
+  
+  .section-sub-container1 {
+    text-align: center;
+    margin: auto !important;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .cooker {
+    display: flex;
+    padding: 15px;
+  }
+  
+  .cooker .text {
+    width: 40%;
+    margin-left: 10px;
+  }
+  
+  .cooker .text .title {
+    font-size: 28px;
+    line-height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cooker .text .title1 {
+    margin-top: 60px;
+    font-size: 23px;
+    line-height: 44px;
+  }
+  
+  .cooker .text .description {
+    margin-top: 48px;
+    font-size: 18px;
+    line-height: 38px;
+  }
+  
+  .cooker img {
+    width: 60%;
+    height: auto;
+  }
+  
+  .farmer {
+    display: flex;
+    padding: 15px;
+  }
+  
+  .farmer .image-box {
+    position: relative;
+    width: 66%;
+    min-width: 66%;
+  }
+  
+  .farmer .image-box .avatar {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+  }
+  
+  .farmer .text-box {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .farmer .text-box .title {
+    font-size: 28px;
+    line-height: 58px;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .farmer .text-box .text1 {
+    font-size: 24px;
+    line-height: 44px;
+    margin-top: 60px;
+  }
+  
+  .farmer .text-box .text2 {
+    font-size: 18px;
+    line-height: 38px;
+  }
+  
+  .soil {
+    display: flex;
+    padding: 15px;
+  }
+  
+  .soil .text-box {
+    width: 45%;
+    min-width: 45%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .soil .text-box .text1 {
+    margin-top: 48px;
+    font-size: 24px;
+    line-height: 44px;
+  }
+  
+  .soil .text-box .text2 {
+    margin-top: 48px;
+    font-size: 18px;
+    line-height: 38px;
+  }
+
+  .soil .image-box {
+    margin-top: 45px;
+  }
+  
+  
+  .fruit {
+    display: flex;
+    padding: 15px;
+  }
+  
+  .fruit .image-box {
+    position: relative;
+    width: 50%;
+    min-width: 50%;
+  }
+  
+  .fruit .image-box img {
+    margin-top: 60px;
+    width: 100%;
+  }
+  
+  .fruit .image-box .text {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 305px;
+    color: white;
+    text-shadow: 0 0 10px black;
+  }
+  
+  .fruit .text-box {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fruit .text-box .title {
+    margin-top: 48px;
+    font-size: 24px;
+    line-height: 44px;
+    text-align: right;
+  }
+  
+  .fruit .text-box .text {
+    margin-top: 48px;
+    font-size: 18px;
+    line-height: 38px;
+  }
+  
+  .effect-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .effect-container img.effect {
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: -200px;
+  }
+  
+  .fish {
+    margin-top: 192px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  .fish .point {
+    width: 50px;
+    height: auto;
+  }
+  
+  .fish .title {
+    margin-top: 16px;
+    width: 200px;
+    height: auto;
+  }
+  
+  .fish .background {
+    margin-top: 32px;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  .fish .avatar {
+    position: absolute;
+    bottom: -80px;
+    right: 150px;
+    width: 200px;
+    height: auto;
+  }
+  
+  .fish-description {
+    display: flex;
+    flex-direction: column;
+    margin-top: 48px;
+    padding: 0 100px 0 100px;
+  }
+  
+  .fish-description .title {
+    font-size: 24px;
+    line-height: 44px;
+  }
+  
+  .fish-description .text {
+    font-size: 18px;
+    line-height: 38px;
+    margin-top: 48px;
+  }
+  
+  .chopsticks {
+    margin-top: 192px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  .chopsticks .point {
+    width: 50px;
+    height: auto;
+  }
+  
+  .chopsticks .background {
+    margin-top: 32px;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  .chopsticks-description {
+    display: flex;
+    flex-direction: column;
+    margin-top: 48px;
+    padding: 0 100px 0 100px;
+  }
+  
+  .chopsticks-description .title {
+    font-size: 24px;
+    line-height: 44px;
+  }
+  
+  .chopsticks-description .text {
+    font-size: 18px;
+    line-height: 38px;
+    margin-top: 48px;
+  }
+  
+  .fugu {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    margin-top: 64px;
+  }
+  
+  .fugu .text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fugu .text .title {
+    font-size: 28px;
+    line-height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fugu .text .title1 {
+    margin-top: 60px;
+    font-size: 23px;
+    line-height: 44px;
+  }
+  
+  .fugu .text .description {
+    margin-top: 48px;
+    font-size: 18px;
+    line-height: 38px;
+  }
+  
+  .fugu img {
+    width: 60%;
+    height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .page-top {
+    font-size: 29px;
+  }
+
+  .page-introduce {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .page-introduce .introduce-content {
+    font-size: 17px;
+  }
+
+  .page-introduce .introduce-navigation1 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .page-body .section-sub-title {
+    margin-left: 0 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .page-body .section-sub-container1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .page-body .map {
+    background-size: cover;
+    height: 317px;
+    background-position: center;
+  }
+
+  .page-body .section-container .map+.container .section-sub-title {
+    padding-top: 110px;
+  }
+
+  .cooker {
+    flex-direction: column;
+  }
+
+  .cooker .text .title1 {
+    text-align: center;
+  }
+
+  .cooker .text .description {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .cooker img {
+    width: 90%;
+    margin: auto;
+  }
+
+  .farmer {
+    flex-direction: column-reverse;
+  }
+
+  .farmer .text1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .farmer .text2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .farmer .image-box {
+    width: 90%;
+    margin: auto;
+  }
+
+  .farmer .image-box .avatar {
+    width: 30%;
+    left: 5px;
+    bottom: 15px;
+  }
+
+  .soil {
+    flex-direction: column;
+  }
+
+  .soil .text-box {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .fruit {
+    flex-direction: column-reverse;
+  }
+
+  .fruit .text-box .title {
+    text-align: center;
+  }
+
+  .fruit .text-box .text {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .fruit .image-box {
+    width: 90%;
+    margin: auto;
+  }
+
+  .fruit .image-box .text {
+    bottom: 23px;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .fish-description {
+    margin-top: 140px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .chopsticks-description {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .fugu {
+    flex-direction: column;
+  }
+
+  .fugu .text .title1 {
+    text-align: center;
+  }
+
+  .fugu .text .description {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .fugu img {
+    width: 90%;
+    margin: auto;
+  }
+
+  .page-top .title {
+    font-size: 30px;
+  }
+
+  .effect-container img.effect {
+    width: 100%;
+    height: auto;
+  }
+
+  .cooker .text {
+    width: 100%;
+  }
+}
+
+
+
 @media (max-width: 575px) {
   .page-top {
     font-size: 29px;
@@ -538,5 +1099,9 @@
   .effect-container img.effect {
     width: 100%;
     height: auto;
+  }
+
+  .cooker .text {
+    width: 100%;
   }
 }

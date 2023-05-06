@@ -188,6 +188,241 @@
   height: auto;
 }
 
+@media (max-width: 1199px) {
+  .page-top {
+    background-image: url("../image/room/page_top.jpg");
+  }
+  
+  .navigation-image1 {
+    background-image: url("../image/room/navigation_1.jpg");
+  }
+  
+  .navigation-image2 {
+    background-image: url("../image/room/navigation_2.jpg");
+  }
+  
+  .bed {
+    width: 100%;
+    height: 690px;
+    background-color: #17457B;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    padding-top: 144px;
+    position: relative;
+  }
+  
+  .bed img.background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .bed img.line  {
+    width: 100%;
+    object-fit: scale-down;
+  }
+  
+  .bed .part1 {
+    display: flex;
+    padding: 48px 0 48px 0;
+    justify-content: center;
+    font-size: 28px;
+    line-height:58px;
+    color: white;
+  }
+  
+  .bed .part2 {
+    width: 100%;
+    font-size: 18px;
+    line-height: 38px;
+    color: white;
+  }
+  
+  .point {
+    width: 50px;
+    height: auto;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .pool-head {
+    padding-top: 48px;
+  }
+  
+  .pool-head .title {
+    font-size: 24px;
+    line-height: 44px;
+  }
+  
+  .pool-head .description {
+    margin-top: 48px;
+    font-size: 18px;
+    line-height: 38px;
+  }
+  
+  .pool {
+    margin-top: 48px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .pool .left-box {
+    padding-top: 96px;
+    width: 28%;
+    min-width: 28%;
+  }
+  
+  .pool .left-box .title {
+    font-size: 24px;
+    line-height: 44px;
+  }
+  
+  .pool .left-box .text {
+    margin-top: 48px;
+    font-size: 18px;
+    line-height: 38px;
+  }
+  
+  .last-table {
+    position: relative;
+    background-color: #ABCED8;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+  
+  .last-table .background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .small-slider {
+    position: relative;
+    top: -48px;
+  }
+  
+  .small-slider img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    margin-left: 10px;
+  }
+  
+  .point {
+    width: 50px;
+    height: auto;
+    margin: -20px;
+  }
+  
+  .point-title {
+    margin-top: 16px;
+    font-size: 24px;
+    /* line-height: 58px; */
+  }
+  
+  .title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 96px;
+  }
+  
+  .big-slider {
+    margin-top: 32px;
+  }
+  
+  .big-slider img {
+    /* width: 700px !important; */
+    height: 450px;
+    object-fit: cover;
+    margin-left: 20px;
+    opacity: .7;
+  }
+  
+  .big-slider .slick-current {
+    opacity: 1;
+  }
+  
+  .big-slider .slick-dots {
+    bottom: 32px !important;
+  }
+  
+  .big-slider .slick-dots li button {
+    width: 8px !important;
+    height: 8px !important;
+    border: 1px solid white !important;
+    border-radius: 50% !important;
+    padding: 0 !important;
+  }
+  
+  .big-slider .slick-dots li button::before {
+    content: '' !important;
+  }
+  
+  .big-slider .slick-dots li.slick-active button {
+    background-color: white !important;
+  }
+  
+  .slider.single-item img {
+    width: 500px !important;
+    height: auto;
+  }
+
+  .big-slider+.container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .page-introduce {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .introduce-navigation1 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .page-body .bed {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+  }
+
+  .big-slider img {
+    height: 200px;
+  }
+
+  .pool-head {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .pool {
+    flex-direction: column;
+  }
+
+  .pool .left-box {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
 @media (max-width: 575px) {
   .page-introduce {
     padding-left: 10px !important;
