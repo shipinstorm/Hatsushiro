@@ -9,6 +9,25 @@
   font-size: 24px;
 }
 
+@media (max-width: 1199px) {
+  .page-body {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .page-introduce {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .page-body>.section-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
 @media (max-width: 575px) {
   .page-introduce {
     padding-left: 10px !important;

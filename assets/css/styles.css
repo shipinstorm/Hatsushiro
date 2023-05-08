@@ -218,3 +218,17 @@ a {
 .slick-arrow {
   display: none !important;
 }
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 767px) {
+  .button-default {
+    max-width: 300px !important;
+  }
+}
+
+@media (max-width: 575px) {
+  
+}

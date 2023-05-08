@@ -136,9 +136,11 @@
 
 .page-body .section2 {
   display: flex;
-  margin-top: -160px;
   gap: 5px;
   margin-bottom: 48px;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: -160px;
 }
 
 .page-body .section2 .left-part {
@@ -218,6 +220,8 @@
 .page-body .section4 {
   display: flex;
   gap: 10px;
+  max-width: 1000px;
+  margin: auto;
   margin-bottom: 48px;
 }
 
@@ -503,11 +507,453 @@
   height: auto;
 }
 
-/******************************
-  Responsive features
-*******************************/
+@media (max-width: 1199px) {
+  .page-top {
+    height: 100vh !important;
+    justify-content: flex-start !important;
+  }
 
-/* mobile design */
+  .page-top .title {
+    display: none;
+  }
+
+  .page-top .title-xs {
+    display: block;
+  }
+
+  .page-top .title-xs.date {
+    margin-top: 50px;
+  }
+
+  .page-top .subtitle {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .page-top img.logo {
+    margin-top: 10px;
+    width: 200px;
+  }
+
+  .page-introduce {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .page-introduce .title {
+    font-size: 30px;
+  }
+
+  .page-introduce .subtitle {
+    font-size: 16px;
+  }
+
+  .page-introduce .semi-bold {
+    font-size: 16px;
+    line-height: 25px;
+    text-shadow: 0 0 15px white;
+  }
+
+  .page-introduce .description {
+    font-size: 15px;
+    line-height: 25px;
+    text-shadow: 0 0 15px white;
+  }
+
+  .page-body .section1 .button-default {
+    max-width: 300px;
+    font-size: 12px;
+    height: 55px;
+  }
+
+  .page-body .section1 .omotenashi-en {
+    font-size: 35px;
+  }
+
+  .page-body .section1 .omotenash-ja {
+    font-size: 25px;
+  }
+
+  .page-body .section1 .description {
+    font-size: 23px;
+  }
+
+  .page-body .food-image {
+    height: 400px;
+    max-width: 80%;
+  }
+
+ .page-body .section2 {
+    max-width: 800px;
+  }
+
+  .page-body .section3 .button-default {
+    max-width: 300px;
+    font-size: 12px;
+    height: 55px;
+  }
+
+  .page-body .section3 .subtitle {
+    font-size: 23px;
+    line-height: 38px;
+  }
+
+  .page-body .section3 #bed-image {
+    margin-top: 48px;
+  }
+
+  .page-body .section3 #bed-image {
+    width: 80%;
+    height: 400px;
+  }
+
+  .page-body .section4 {
+    max-width: 800px;
+  }
+
+  .page-body .section4>.text {
+    padding-left: 50px;
+  }
+
+  .page-body .section5 .subtitle {
+    font-size: 23px;
+    line-height: 35px;
+  }
+
+  .page-body .section5 .button-default {
+    width: 80%;
+    font-size: 12px;
+    height: 55px;
+  }
+
+  .page-body .section6 .background-image {
+    height: 300px;
+  }
+
+  .page-body .section7 {
+    padding: 0;
+    flex-direction: column-reverse;
+    padding-bottom: 50px;
+  }
+
+  .page-body .section7 .right-part {
+    width: 100%;
+    padding: 48px 10px;
+  }
+
+  .page-body .section7 .right-part .text {
+    width: 100%;
+    margin-bottom: 320px;
+  }
+
+  .page-body .section7 .left-part {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 10px;
+    height: 470px;
+  }
+
+  .page-body .section7 .left-part .image .button-box {
+    font-size: 10px;
+    height: 44px;
+    padding: 0 10px;
+    left: 10px;
+    width: fit-content;
+  }
+
+  .page-body .section7 .button-default {
+    width: 80%;
+    font-size: 12px;
+    height: 55px;
+    min-height: 55px;
+    margin: auto;
+  }
+
+  .page-body .section7 .map {
+    width: 100%;
+    height: 680px;
+    top: 150px;
+  }
+
+  .page-body .section8 .text-experience {
+    line-height: 84px;
+  }
+
+  .page-body .section8 .description {
+    font-size: 19px;
+  }
+
+  .experience-slider {
+    margin-top: 48px;
+  }
+
+  .page-body .section9 {
+    flex-direction: column;
+  }
+
+  .page-body .section9 .left-part,
+  .page-body .section9 .right-part {
+    width: 100%;
+    align-items: center;
+  }
+
+  .page-body .section9 .left-part .image,
+  .page-body .section9 .right-part .image {
+    justify-content: center;
+  }
+
+  .page-body .section9 .left-part .subtitle,
+  .page-body .section9 .right-part .subtitle {
+    position: relative;
+    top: -18px;
+  }
+
+  .page-body .section9 .right-part .description,
+  .page-body .section9 .left-part .description {
+    margin-top: 0;
+    padding: 0 10px;
+  }
+
+  .button-default {
+    max-width: 300px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .page-top {
+    height: 100vh !important;
+    justify-content: flex-start !important;
+  }
+
+  .page-top .title {
+    display: none;
+  }
+
+  .page-top .title-xs {
+    display: block;
+  }
+
+  .page-top .title-xs.date {
+    margin-top: 50px;
+  }
+
+  .page-top .subtitle {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .page-top img.logo {
+    margin-top: 10px;
+    width: 200px;
+  }
+
+  .page-introduce {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .page-introduce .title {
+    font-size: 30px;
+  }
+
+  .page-introduce .subtitle {
+    font-size: 16px;
+  }
+
+  .page-introduce .semi-bold {
+    font-size: 16px;
+    line-height: 25px;
+    text-shadow: 0 0 15px white;
+  }
+
+  .page-introduce .description {
+    font-size: 15px;
+    line-height: 25px;
+    text-shadow: 0 0 15px white;
+  }
+
+  .page-body .section1 .button-default {
+    max-width: 300px;
+    font-size: 12px;
+    height: 55px;
+  }
+
+  .page-body .section1 .omotenashi-en {
+    font-size: 35px;
+  }
+
+  .page-body .section1 .omotenash-ja {
+    font-size: 25px;
+  }
+
+  .page-body .section1 .description {
+    font-size: 23px;
+  }
+
+  .page-body .food-image {
+    height: 100vw;
+    width: 100%;
+  }
+
+  .page-body .section2 {
+    flex-direction: column;
+  }
+
+  .page-body .section2 .left-part {
+    padding: 0 10px;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .page-body .section2 .left-part p {
+    margin-left: 0;
+  }
+
+  .page-body .section2 .images img:first-child {
+    margin-top: 40px;
+  }
+
+  .page-body .section2 .images img:last-child {
+    margin-bottom: 40px;
+  }
+
+  .page-body .section2 .right-part {
+    padding: 0 10px;
+  }
+
+  .page-body .section3 .button-default {
+    max-width: 300px;
+    font-size: 12px;
+    height: 55px;
+  }
+
+  .page-body .section3 .subtitle {
+    font-size: 23px;
+    line-height: 38px;
+  }
+
+  .page-body .section3 #bed-image {
+    margin-top: 48px;
+  }
+
+  .page-body .section3 #bed-image {
+    width: 100%;
+    height: 250px;
+  }
+
+  .page-body .section4 {
+    flex-direction: column;
+  }
+
+  .page-body .section4>.text {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .page-body .section5 .subtitle {
+    font-size: 23px;
+    line-height: 35px;
+  }
+
+  .page-body .section5 .button-default {
+    width: 80%;
+    font-size: 12px;
+    height: 55px;
+  }
+
+  .page-body .section6 .background-image {
+    height: 300px;
+  }
+
+  .page-body .section7 {
+    padding: 0;
+    flex-direction: column-reverse;
+    padding-bottom: 50px;
+  }
+
+  .page-body .section7 .right-part {
+    width: 100%;
+    padding: 48px 10px;
+  }
+
+  .page-body .section7 .right-part .text {
+    width: 100%;
+    margin-bottom: 320px;
+  }
+
+  .page-body .section7 .left-part {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 10px;
+    height: 470px;
+  }
+
+  .page-body .section7 .left-part .image .button-box {
+    font-size: 10px;
+    height: 44px;
+    padding: 0 10px;
+    left: 10px;
+    width: fit-content;
+  }
+
+  .page-body .section7 .button-default {
+    width: 80%;
+    font-size: 12px;
+    height: 55px;
+    min-height: 55px;
+    margin: auto;
+  }
+
+  .page-body .section7 .map {
+    width: 100%;
+    height: 680px;
+    top: 150px;
+  }
+
+  .page-body .section8 .text-experience {
+    line-height: 84px;
+  }
+
+  .page-body .section8 .description {
+    font-size: 19px;
+  }
+
+  .experience-slider {
+    margin-top: 48px;
+  }
+
+  .page-body .section9 {
+    flex-direction: column;
+  }
+
+  .page-body .section9 .left-part,
+  .page-body .section9 .right-part {
+    width: 100%;
+    align-items: center;
+  }
+
+  .page-body .section9 .left-part .image,
+  .page-body .section9 .right-part .image {
+    justify-content: center;
+  }
+
+  .page-body .section9 .left-part .subtitle,
+  .page-body .section9 .right-part .subtitle {
+    position: relative;
+    top: -18px;
+  }
+
+  .page-body .section9 .right-part .description,
+  .page-body .section9 .left-part .description {
+    margin-top: 0;
+    padding: 0 10px;
+  }
+
+  .button-default {
+    max-width: 300px !important;
+  }
+}
+
 @media (max-width: 575px) {
   .page-top {
     height: 100vh !important;
@@ -738,8 +1184,3 @@
   }
 }
 
-/* tablet design */
-@media (max-width: 768px) {}
-
-/* laptop, desktop design */
-@media (max-width: 1023px) {}
